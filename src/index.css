@@ -6,3 +6,8 @@
     font-family: Found;
     src: url(../FoundersGrotesk-Semibold.woff2);
 }
+
+@font-face {
+    font-family: Neue_Montreal;
+    src: url(../NeueMontreal-Regular.woff2);
+}
