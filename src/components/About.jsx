@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed='-.1' className='w-full pt-14 pb-5 lg:pb-14 bg-[#CEEA67] rounded-3xl font-["Neue_Montreal"] z-50'>
+        <div data-scroll data-scroll-section data-scroll-speed='-.1' className='w-full pt-14 pb-5 lg:pb-14 bg-[#CEEA67] rounded-3xl font-["Neue_Montreal"] z-50 overflow-x-hidden'>
             <h1 className='text-[31px] lg:text-[55px] lg:w-[85%] leading-8 lg:leading-[55px] px-5 lg:px-14'>
                 Ochi is a strategic partner for fast-grow­ing tech businesses that need to <p className='inline underline underline-offset-[10px] decoration-2'>raise funds</p>,
                 <p className='inline underline underline-offset-[10px] decoration-2'>sell prod­ucts</p>, <p className='inline underline underline-offset-[10px] decoration-2'>ex­plain com­plex ideas</p>, and <p className='inline underline underline-offset-[10px] decoration-2'>hire great peo­ple</p>.
