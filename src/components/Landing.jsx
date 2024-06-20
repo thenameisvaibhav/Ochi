@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Landing = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed='-.1' className="w-full h-screen font-['Neue_Montreal'] overflow-hidden">
+        <div data-scroll data-scroll-section data-scroll-speed='-.1' className="w-full h-screen font-['Neue'] overflow-hidden">
             <div className="textstructure pt-24 lg:pt-36 px-5 lg:px-14">
                 {['We Create', 'Eye-Opening', 'Presentations'].map((item, index) => {
                     return (

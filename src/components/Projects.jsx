@@ -11,7 +11,7 @@ const Projects = () => {
         cards[index].start({ y: '100%' });
     }
     return (
-        <div className='w-full py-7 lg:py-20 rounded-3xl font-["Neue_Montreal"]'>
+        <div className='w-full py-7 lg:py-20 rounded-3xl font-["Neue"]'>
             <h3 className='text-[31px] lg:text-[55px] px-5 lg:px-14'>Featured projects</h3>
             <div className="border-b-[1px] border-zinc-400 pb-8"></div>
             <div className="px-5 lg:px-14">
