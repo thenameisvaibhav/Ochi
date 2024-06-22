@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 const Eyes = () => {
+    const isMobile = /Mobi|Andriod/i.test(navigator.userAgent);
+
     const [rotate, setrotate] = useState(0)
     useEffect(() => {
         window.addEventListener("mousemove", (e) => {
@@ -17,7 +19,7 @@ const Eyes = () => {
 
     return (
         <div className='eyes overflow-hidden min-h-[300px] lg:h-screen w-full'>
-            <div data-scroll data-scroll-section data-scroll-speed="-.3" className="bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)] bg-cover bg-center relative w-full min-h-[300px] lg:h-full">
+            <div data-scroll={isMobile ? true : false} data-scroll-section data-scroll-speed={isMobile ? "-.2": "-.9"} className="bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)] bg-cover bg-center relative w-full min-h-[300px] lg:h-full">
                 <div className="absolute top-1/2 left-1/2 -translate-y-[62%] -translate-x-1/2 flex gap-4">
                     <div className="w-28 lg:w-60 h-28 lg:h-60 rounded-full bg-white flex items-center justify-center relative">
                         <h4 className='text-center text-white absolute z-10 uppercase text-[1.5vh] lg:text-xl tracking-tight opacity-95'>Play</h4>

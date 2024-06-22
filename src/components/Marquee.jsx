@@ -2,9 +2,10 @@ import { motion } from 'framer-motion'
 import React from 'react'
 
 const Marquee = () => {
+    const isMobile = /Mobi|Andriod/i.test(navigator.userAgent);
 
     return (
-        <div data-scroll data-scroll-section data-scroll-speed='-.1' className='w-full py-14 lg:py-20 bg-[#004D43] rounded-2xl'>
+        <div data-scroll={isMobile ? true : false} data-scroll-section data-scroll-speed={isMobile ? "-.1" : "-.01"} className='w-full py-14 lg:py-20 bg-[#004D43] rounded-2xl'>
             <div className="text border-y-[.1px] border-[#59827B] flex whitespace-nowrap font-['Found'] font-semibold uppercase overflow-hidden">
                 <motion.h1
                     initial={{ x: '0' }}
