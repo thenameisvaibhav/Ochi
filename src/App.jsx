@@ -11,7 +11,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='bg-[#F1F1F1]'>
+    <div className='bg-[#F1F1F1] overflow-hidden'>
       <Navbar/>
       <Landing/>
       <Marquee/>

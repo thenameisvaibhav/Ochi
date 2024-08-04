@@ -30,7 +30,7 @@ const Landing = () => {
                 <p className='font-light leading-none pb-9'>For public and private companies</p>
                 <p className='font-light leading-none pb-9 lg:ml-72'>From the first pitch to IPO</p>
                 <div className="lg:flex justify-center gap-1">
-                    <button className='text-sm uppercase text-zinc-600 border-2 border-zinc-600 py-2 px-3 rounded-full leading-none md:ml-32 mb-7 font-semibold'>Start the project</button>
+                    <button className='text-sm uppercase text-zinc-600 border-2 border-zinc-600 py-2 px-3 rounded-full leading-none md:ml-32 mb-7 font-semibold hover:bg-red-500 '>Start the project</button>
                     <div className="w-9 h-9 border-2 border-zinc-600 rounded-full xl:flex items-center justify-center hidden">
                         <MdArrowOutward className='text-xl' />
                     </div>
